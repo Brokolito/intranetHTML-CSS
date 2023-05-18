@@ -1,0 +1,82 @@
+*{
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 90%;
+    margin: auto;
+    border-bottom: 5px solid #01356E;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.nav-img img{
+    width: 30%;
+}
+.nav-sections{
+    display: flex;
+    gap: 20px;
+
+}
+.nav-sections a{
+    text-decoration: none;
+    white-space: nowrap;
+    color: #01356E;
+}
+i{
+    margin-right: 5px;
+}
+.banner{
+    margin: auto;
+    width: 60%;
+    height: 500px;
+    background-size: cover;
+    color: white;
+    background: rgb(2,0,36);
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.384) 0%, rgba(9, 9, 121, 0.34) 36%, rgba(0, 213, 255, 0.411) 100%),url('assets/ufro1.jpg');;
+}
+.content-page{
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+}
+.formulario form{
+    margin: auto;
+    width: 250px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.formulario{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    padding: 20px;
+}
+.mas-opciones a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #01356E;
+    white-space: nowrap;
+}
+.mas-opciones >  a:hover{
+    text-decoration: underline;
+}
+.nav-sections > li > a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 90%;
+    margin: auto;
+}
+footer > ul{
+    border-top: 5px solid #01356E;
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
